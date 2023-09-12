@@ -1,5 +1,5 @@
 #include <iostream>
-
+// using namespace std;
 int main(int argc, char **argv)
 {
     // Declarando variables según el tipo de dato que deseamos ingresar.
