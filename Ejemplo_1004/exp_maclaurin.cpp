@@ -28,10 +28,11 @@ int factorial (int n)
 int main()
 {
     float x, sum, res;
+    int N;
     cout << "ingrese un numero: ";
     cin >> x;
     sum = 0;
-    for (int n=0; n<=10; n++)
+    for (int n=0; n<=N; n++)
     {
         sum = sum + pow(x,n)/factorial(n);
     }
