@@ -31,6 +31,8 @@ int main()
     int N;
     cout << "ingrese un numero: ";
     cin >> x;
+    cout << "Ingrese valor N sumatoria: ";
+    cin >> N;
     sum = 0;
     for (int n=0; n<=N; n++)
     {
