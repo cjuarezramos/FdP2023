@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdio.h>
 using namespace std;
 
 // Primero van las funciones
@@ -16,9 +17,9 @@ int main()
     cout << "ingrese el salario nominal: ";
     cin >> salario_n;
     d_afp = AFP(salario_n);
+    printf("Su salario nominal:$ %8.2f\n",salario_n);
+    printf("Descuento por AFP: $ %8.2f\n",d_afp);
 
-    cout << "Su salario nominal es:   $" << salario_n << "\n";
-    cout << "Su descuento por AFP es: $" << d_afp << "\n";
 
 
     return 0;
