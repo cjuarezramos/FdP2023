@@ -1,0 +1,3 @@
+Probando escribir datos: 
+Dato 1     10
+Dato 2     5
