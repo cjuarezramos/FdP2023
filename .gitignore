@@ -32,3 +32,6 @@
 *.app
 
 *.json
+
+# Archivo txt
+*.txt
